@@ -31,6 +31,7 @@ public:
     std::vector<int> neighbours(int vertex);
     bool neighbour(int vertex1, int vertex2);
     void visualize(int start, int stop);
+    void GenerateRandomGraphs(int NOE, int NOV); // No. of edges (NOE) No. of vertices(NOV)
 
 private:
     bool directed;
