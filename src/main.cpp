@@ -79,12 +79,12 @@ int main()
     int n, i, e, v;
     std::cout << "Enter the number of the vertex in the graph\n" ;
     std::cin >> v;
-  	std::cout << "Enter the number of the edges in the graph\n" ;
+    std::cout << "Enter the number of the edges in the graph\n" ;
     std::cin >> e;
-  	std::cout<<"Random graph generation: \n";
-	  std::cout<<"The graph has "<<v<<" vertices.\n";
-  	std::cout<<"The graph has "<<e<<" edges.\n";
-	  plot.GenerateRandomGraphs(e, v); // generates undirected graph
+    std::cout<<"Random graph generation: \n";
+    std::cout<<"The graph has "<<v<<" vertices.\n";
+    std::cout<<"The graph has "<<e<<" edges.\n";
+    plot.GenerateRandomGraphs(e, v); // generates undirected graph
     std::cout << "\nAdjanceny matrix is shown below.\n" << std::endl;
     plot.visualize(1,v);
     
